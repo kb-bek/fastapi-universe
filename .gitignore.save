@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Poetry virtual environment
+.poetry/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and database files
+*.log
+*.sqlite3
+*.db
+
+# PIP dependency cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest and coverage reports
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# VSCode settings
+.vscode/
+
+# IDEs
+.idea/
+*.iml
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Editor backups and system files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# FastAPI specific
+instance/
